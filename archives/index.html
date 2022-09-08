@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>好游快爆云存档SDK-接入文档 | 陈宝阳个人主页</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/images/photo.jpg">
+    <link rel="manifest" href="/images/photo.jpg">
+    <link rel="apple-touch-icon" href="/images/photo.jpg">
+    <meta name="description" content="Personal Website">
+    <meta http-quiv="pragma" cotent="no-cache">
+    <meta http-quiv="pragma" cotent="no-cache,must-revalidate">
+    <meta http-quiv="expires" cotent="0">
+    
+    <link rel="preload" href="/assets/css/0.styles.cd3a2423.css" as="style"><link rel="preload" href="/assets/js/app.382c28ba.js" as="script"><link rel="preload" href="/assets/js/2.5c9681e2.js" as="script"><link rel="preload" href="/assets/js/11.63661c93.js" as="script"><link rel="prefetch" href="/assets/js/10.acf6ba07.js"><link rel="prefetch" href="/assets/js/12.e21e987b.js"><link rel="prefetch" href="/assets/js/13.e063d24c.js"><link rel="prefetch" href="/assets/js/14.c28c7e45.js"><link rel="prefetch" href="/assets/js/15.1db21efc.js"><link rel="prefetch" href="/assets/js/16.07fb3cf0.js"><link rel="prefetch" href="/assets/js/17.5c6d76b7.js"><link rel="prefetch" href="/assets/js/18.c14d91dc.js"><link rel="prefetch" href="/assets/js/19.359ac023.js"><link rel="prefetch" href="/assets/js/20.8021cb2e.js"><link rel="prefetch" href="/assets/js/21.686671f2.js"><link rel="prefetch" href="/assets/js/22.4354d917.js"><link rel="prefetch" href="/assets/js/23.4188acc7.js"><link rel="prefetch" href="/assets/js/24.9e29e9a7.js"><link rel="prefetch" href="/assets/js/25.8e1a52b8.js"><link rel="prefetch" href="/assets/js/26.3b6d1999.js"><link rel="prefetch" href="/assets/js/27.94eacba0.js"><link rel="prefetch" href="/assets/js/28.2a22a3a9.js"><link rel="prefetch" href="/assets/js/3.3c88b1aa.js"><link rel="prefetch" href="/assets/js/4.c1f5af53.js"><link rel="prefetch" href="/assets/js/5.2cc9ec1c.js"><link rel="prefetch" href="/assets/js/6.a733f0d4.js"><link rel="prefetch" href="/assets/js/7.502ba01d.js"><link rel="prefetch" href="/assets/js/8.436cdf0e.js"><link rel="prefetch" href="/assets/js/9.dc98d980.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cd3a2423.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">陈宝阳个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/archives/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  云存档
+</a></div><div class="nav-item"><a href="/anti/" class="nav-link">
+  防沉迷
+</a></div><div class="nav-item"><a href="/update/" class="nav-link">
+  强更
+</a></div><div class="nav-item"><a href="/paid/" class="nav-link">
+  付费下载
+</a></div><div class="nav-item"><a href="/pay/" class="nav-link">
+  内购
+</a></div><div class="nav-item"><a href="/review/" class="nav-link">
+  送审
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/archives/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  云存档
+</a></div><div class="nav-item"><a href="/anti/" class="nav-link">
+  防沉迷
+</a></div><div class="nav-item"><a href="/update/" class="nav-link">
+  强更
+</a></div><div class="nav-item"><a href="/paid/" class="nav-link">
+  付费下载
+</a></div><div class="nav-item"><a href="/pay/" class="nav-link">
+  内购
+</a></div><div class="nav-item"><a href="/review/" class="nav-link">
+  送审
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>好游快爆云存档SDK-接入文档</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/archives/#_1-sdk嵌入" class="sidebar-link">1.  SDK嵌入</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/archives/#_2-接入代码" class="sidebar-link">2.  接入代码</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/archives/#_2-1-gamearchivesdatabean数据实体类介绍" class="sidebar-link">2.1 GameArchivesDataBean数据实体类介绍</a></li><li class="sidebar-sub-header"><a href="/archives/#_2-2-存档" class="sidebar-link">2.2 存档</a></li><li class="sidebar-sub-header"><a href="/archives/#_2-3-取档" class="sidebar-link">2.3 取档</a></li><li class="sidebar-sub-header"><a href="/archives/#_2-4-获取档位列表" class="sidebar-link">2.4 获取档位列表</a></li><li class="sidebar-sub-header"><a href="/archives/#_2-5-代码混淆" class="sidebar-link">2.5 代码混淆</a></li><li class="sidebar-sub-header"><a href="/archives/#_2-6-接口状态返回的code和message" class="sidebar-link">2.6 接口状态返回的code和message</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="好游快爆云存档sdk-接入文档"><a href="#好游快爆云存档sdk-接入文档" class="header-anchor">#</a> 好游快爆云存档SDK-接入文档</h1> <p>[TOC]</p> <center><table><thead><tr><th style="text-align:center;">版本</th> <th style="text-align:left;">更新说明</th> <th style="text-align:center;">日期</th></tr></thead> <tbody><tr><td style="text-align:center;">V1.0.1.0</td> <td style="text-align:left;">1.读写档冷却时间针对同一个档位id</td> <td style="text-align:center;">2022-04-25</td></tr> <tr><td style="text-align:center;">V1.0.0.0</td> <td style="text-align:left;">1.初始化存档，取档，档位列表三个功能</td> <td style="text-align:center;">2021-12-24</td></tr></tbody></table></center> <p><a href="/archives/archive_en.html">English Document</a></p> <h2 id="_1-sdk嵌入"><a href="#_1-sdk嵌入" class="header-anchor">#</a> 1.  SDK嵌入</h2> <ol><li><p><code>SDK</code>下载完，将<code>aar</code>的
+<code>common.aar</code> <code>archives.aar</code>
+类库导入游戏工程libs目录下</p></li> <li><p>在工程的<code>build.gradle</code>文件下添加以下代码即可完成依赖，</p></li></ol> <div class="language- line-numbers-mode"><pre class="language-text"><code>android {
+    defaultConfig {
+        //方法数超过65536时，开启多dex的支持
+        multiDexEnabled true
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation(name:'common', ext:'aar')
+    implementation(name:'archives', ext:'aar')
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>然后同步下gradle即可。</p> <h2 id="_2-接入代码"><a href="#_2-接入代码" class="header-anchor">#</a> 2.  接入代码</h2> <h3 id="_2-1-gamearchivesdatabean数据实体类介绍"><a href="#_2-1-gamearchivesdatabean数据实体类介绍" class="header-anchor">#</a> 2.1 GameArchivesDataBean数据实体类介绍</h3> <table><thead><tr><th style="text-align:center;">字段含义</th> <th style="text-align:center;">字段名</th> <th style="text-align:center;">是否可选</th> <th style="text-align:center;">说明</th></tr></thead> <tbody><tr><td style="text-align:center;">游戏ID</td> <td style="text-align:center;">gameId</td> <td style="text-align:center;">必须</td> <td style="text-align:center;">云存档云端为游戏存取档的唯一字符串。使用此 ID 来引用你游戏客户端中保存的游戏。</td></tr> <tr><td style="text-align:center;">用户ID</td> <td style="text-align:center;">userId</td> <td style="text-align:center;">必须</td> <td style="text-align:center;">来自好游快爆防沉迷sdk或者支付sdk的登录成功后获取的HykbUser</td></tr> <tr><td style="text-align:center;">档位ID</td> <td style="text-align:center;">archivesId</td> <td style="text-align:center;">必须</td> <td style="text-align:center;">游戏开发者提供的档位ID，必须是整数</td></tr> <tr><td style="text-align:center;">档位标题</td> <td style="text-align:center;">archivesTitle</td> <td style="text-align:center;">必须</td> <td style="text-align:center;">游戏开发者提供的存档标题，长度不超过 30 的字符串</td></tr> <tr><td style="text-align:center;">档位内容</td> <td style="text-align:center;">archivesContent</td> <td style="text-align:center;">必须</td> <td style="text-align:center;">游戏开发者提供的存档标题，内容大小不得超过3M</td></tr> <tr><td style="text-align:center;">档位时间</td> <td style="text-align:center;">updateTime</td> <td style="text-align:center;">自动</td> <td style="text-align:center;">存档成功后，该字段由服务端自动生成</td></tr></tbody></table> <p>以上的字段内容，通过set设置值，比如<code>setGameId(&quot;111&quot;)</code>, get 方式取值，比如<code>getArchivesContent()</code></p> <blockquote><p><code>重要注意</code>：
+<code>SDK的所有API接口都有3秒的请求间隔限制</code> <code>档位内容的内容大小不得超过3M</code></p></blockquote> <h3 id="_2-2-存档"><a href="#_2-2-存档" class="header-anchor">#</a> 2.2 存档</h3> <p>接入示例：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>GameArchivesDataBean dataBean = new GameArchivesDataBean();
+dataBean.setGameId(&quot;游戏ID&quot;);
+dataBean.setUserId(&quot;好游快爆用户ID&quot;);
+dataBean.setArchivesId(11);//存档ID，整数，由开发者自己传
+dataBean.setArchivesTitle(&quot;存档标题&quot;);
+dataBean.setArchivesContent(&quot;存档内容&quot;);
+HykbGameArchives.saveArchivesData(SaveArchivesActivity.this, dataBean, new HykbSaveArchivesListener() {
+                @Override
+                public void onSuccess() {
+                    //存档成功
+                }
+
+                @Override
+                public void onFailed(int code, String message) {
+	                //存档失败，失败的原因在code和message中
+                    Log.i(&quot;archives&quot;,&quot;code = &quot;+code+&quot;,message = &quot;+message);
+                }
+            });
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>接口方法:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>HykbGameArchives.saveArchivesData(Context context, GameArchivesDataBean bean, HykbSaveArchivesListener listener);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>参数定义：</p> <table><thead><tr><th style="text-align:center;">参数名称</th> <th style="text-align:center;">描述</th></tr></thead> <tbody><tr><td style="text-align:center;">context</td> <td style="text-align:center;">当前应用的ApplicationContext或Activity</td></tr> <tr><td style="text-align:center;">bean</td> <td style="text-align:center;">GameArchivesDataBean:存档数据和参数的实体对象</td></tr> <tr><td style="text-align:center;">listener</td> <td style="text-align:center;">HykbSaveArchivesListener 存档回调监听</td></tr></tbody></table> <h3 id="_2-3-取档"><a href="#_2-3-取档" class="header-anchor">#</a> 2.3 取档</h3> <p>接入示例：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>GameArchivesDataBean dataBean = new GameArchivesDataBean();
+dataBean.setGameId(&quot;游戏ID&quot;);
+dataBean.setUserId(&quot;好游快爆用户ID&quot;);
+dataBean.setArchivesId(11);//存档ID，整数，由开发者自己传
+HykbGameArchives.readArchivesData(SaveArchivesActivity.this, dataBean, new HykbReadArchivesListener() {
+    @Override
+    public void onSuccess(GameArchivesDataBean dataBean) {
+		//取档成功
+        StringBuilder sb = new StringBuilder();
+        sb.append(&quot;存档ID：&quot;);
+        sb.append(dataBean.getArchivesId());
+        sb.append(&quot;\n&quot;);
+        sb.append(&quot;存档标题：&quot;);
+        sb.append(dataBean.getArchivesTitle());
+        sb.append(&quot;\n&quot;);
+        sb.append(&quot;存档内容：&quot;);
+        sb.append(dataBean.getArchivesContent());
+        Log.i(&quot;archive&quot;, sb.toString());
+    }
+
+    @Override
+    public void onFailed(int code, String message) {
+        // 取档失败，失败原因在code和message中
+        Log.i(&quot;archive&quot;,&quot;code = &quot;+code+&quot;, message = &quot;+message);
+    }
+});
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><p>接口方法:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>HykbGameArchives.readArchivesData(Context context, GameArchivesDataBean bean, HykbReadArchivesListener listener);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>参数定义：</p> <table><thead><tr><th style="text-align:center;">参数名称</th> <th style="text-align:center;">描述</th></tr></thead> <tbody><tr><td style="text-align:center;">context</td> <td style="text-align:center;">当前应用的ApplicationContext或Activity</td></tr> <tr><td style="text-align:center;">bean</td> <td style="text-align:center;">GameArchivesDataBean:存档数据和参数的实体对象</td></tr> <tr><td style="text-align:center;">listener</td> <td style="text-align:center;">HykbReadArchivesListener 取档回调监听</td></tr></tbody></table> <h3 id="_2-4-获取档位列表"><a href="#_2-4-获取档位列表" class="header-anchor">#</a> 2.4 获取档位列表</h3> <p>接入示例：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>GameArchivesDataBean bean = new GameArchivesDataBean();
+bean.setGameId(gameId);
+bean.setUserId(user.getUserId());
+HykbGameArchives.loadAllArchivesData(ArchivesListActivity.this, bean, new HykbLoadArchivesListener() {
+            @Override
+            public void onSuccess(List&lt;GameArchivesDataBean&gt; dataBean) {
+                Log.i(&quot;archive&quot;,&quot;dataBean = &quot;+dataBean.toString());
+                // 成功获取到档位列表数据
+            }
+
+            @Override
+            public void onFailed(int code, String message) {
+                // 获取档位列表失败，失败原因在code和message中
+		        Log.i(&quot;archive&quot;,&quot;code = &quot;+code+&quot;, message = &quot;+message);
+            }
+        });
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p>接口方法:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>HykbGameArchives.loadAllArchivesData(Context context, GameArchivesDataBean bean, HykbLoadArchivesListener listener);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>参数定义：</p> <table><thead><tr><th style="text-align:center;">参数名称</th> <th style="text-align:center;">描述</th></tr></thead> <tbody><tr><td style="text-align:center;">context</td> <td style="text-align:center;">当前应用的ApplicationContext或Activity</td></tr> <tr><td style="text-align:center;">bean</td> <td style="text-align:center;">GameArchivesDataBean:存档数据和参数的实体对象</td></tr> <tr><td style="text-align:center;">listener</td> <td style="text-align:center;">HykbLoadArchivesListener 获取档位列表回调监听</td></tr></tbody></table> <blockquote><p><code>注意</code>：<code>存档列表数据是没有档位内容的，开发者需要根据存档ID去获取</code></p></blockquote> <h3 id="_2-5-代码混淆"><a href="#_2-5-代码混淆" class="header-anchor">#</a> 2.5 代码混淆</h3> <p>如果您需要使用proguard混淆代码，需确保不要混淆SDK的代码。
+请在proguard.cfg文件(或其它混淆文件)尾部添加如下配置:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code># 不能混淆监听
+-keep class com.m3839.sdk.common.** {*;}
+-keep class com.m3839.sdk.archives.** {*;}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="_2-6-接口状态返回的code和message"><a href="#_2-6-接口状态返回的code和message" class="header-anchor">#</a> 2.6 接口状态返回的code和message</h3> <table><thead><tr><th style="text-align:center;">code</th> <th style="text-align:center;">message</th></tr></thead> <tbody><tr><td style="text-align:center;">101</td> <td style="text-align:center;">存档标题超出30字符</td></tr> <tr><td style="text-align:center;">102</td> <td style="text-align:center;">网络异常</td></tr> <tr><td style="text-align:center;">103</td> <td style="text-align:center;">操作过于频繁（目前存档、读档、列表请求间隔为3s）</td></tr> <tr><td style="text-align:center;">1001</td> <td style="text-align:center;">存档保存失败</td></tr> <tr><td style="text-align:center;">1101</td> <td style="text-align:center;">账号信息已失效，请重新登录</td></tr> <tr><td style="text-align:center;">2001</td> <td style="text-align:center;">游戏存档未配置（目前是技术配置游戏id后才可使用存档 ）</td></tr> <tr><td style="text-align:center;">2002</td> <td style="text-align:center;">档位不存在</td></tr> <tr><td style="text-align:center;">2004</td> <td style="text-align:center;">存档内容超出1M</td></tr> <tr><td style="text-align:center;">2005</td> <td style="text-align:center;">最多只能存储10个档位</td></tr> <tr><td style="text-align:center;">2101</td> <td style="text-align:center;">包体错误（检查下包名和签名是否正确）</td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.382c28ba.js" defer></script><script src="/assets/js/2.5c9681e2.js" defer></script><script src="/assets/js/11.63661c93.js" defer></script>
+  </body>
+</html>
